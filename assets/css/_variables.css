@@ -1,0 +1,13 @@
+@import url("fonts/_fonts.css");
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+
+  --blue: #182cc0;
+  --cyan: #3295ce;
+
+  
+  --gradient-1: #001682;
+  --gradient-2: #3240e5;
+}

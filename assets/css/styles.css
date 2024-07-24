@@ -1,0 +1,204 @@
+@import url("_reset.css");
+@import url("_variables.css");
+@import url("_fonts.css");
+
+body {
+  color: #555f62;
+  background-color: #f9fafa;
+  font-family: "TBCX", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  width: 100%;
+}
+/* header styles */
+
+.header {
+  height: 80px;
+  background-color: #fff;
+  border-bottom: 1px solid #eef1f1;
+  position: fixed;
+  top: 0;
+  bottom: auto;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.header-container {
+  z-index: 103;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 32px;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  height: 80px;
+  white-space: nowrap;
+}
+.header_nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 40px;
+  font-size: 16px;
+  color: #222;
+}
+.header_nav_box {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  column-gap: 32px;
+}
+.subscribe_package {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7px;
+  color: var(--blue);
+  font-weight: 700;
+}
+.header_language_select {
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+/* main styles */
+main {
+  margin-top: 80px;
+}
+.subscribe_section {
+  height: 468px;
+  padding: 32px 0 60px;
+}
+.subscribe_section_container {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/assets/images/office-chair-img.webp");
+  background-size: cover;
+  border-radius: 6px;
+  position: relative;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  max-width: 1110px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 32px 0 60px;
+}
+.banner_content {
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: absolute;
+  justify-content: center;
+  left: 96px;
+  top: 96px;
+  color: var(--white);
+}
+.main_title_box {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 24px 0 24px 0;
+}
+
+.banner_btn {
+  background: linear-gradient(15deg, var(--gradient-1), var(--gradient-2));
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.33;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  width: 130px;
+  height: 50px;
+}
+
+.section_big-message {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.big_message_text {
+  color: #141719;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+/* .become_concept_section {
+  padding: 60px 0;
+} */
+.choose_concept_package {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.choose_concept_package h2{
+  color: var(--black);
+}
+.choose_concept_list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.package_item{
+  display: flex;  
+  position: relative;
+  /* align-items: flex-start; */
+
+}
+.package_item2 {
+  grid-row: span 2;
+}
+.package_img_1,
+.package_img_2,
+.package_img_3 {
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.25s ease-in-out;
+  border-radius: 6px;
+  filter: brightness(80%)
+}
+.package_text {
+  padding: 40px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction:column ;
+  justify-content: flex-end;
+  align-items: flex-start;
+  color: var(--white);
+ 
+}
+.package_text h3{
+  font-size: 24px;
+  font-weight: 700;
+ 
+}
+.package_text a {
+  color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+.package_text a svg{
+  fill: var(--white);
+}
+.package_list path {
+  fill: var(--white);
+}
+
