@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
           .querySelector(".header_dropdown_list")
           .classList.remove("active");
       });
-      bg.classList.remove("active");
+      dropdown_bg.classList.remove("active");
     }
   });
 });

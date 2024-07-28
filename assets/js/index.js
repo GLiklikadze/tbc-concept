@@ -28,25 +28,3 @@ let updateScrollWidth = () => {
     scrollDrag.style.width = `${(visibleSlides / allSlides) * 100}%`;
   }
 };
-
-// document.addEventListener("DOMContentLoaded", function () {
-//   let swiper = new Swiper(".swiper1", {
-//     // Optional parameters
-//     direction: "horizontal",
-//     loop: false,
-//     slidesPerView: 1,
-//     spaceBetween: 10,
-//     // Navigation arrows
-//     navigation: {
-//       nextEl: ".main-slider-next",
-//       prevEl: ".main-slider-prev",
-//     },
-//     // And if we need scrollbar
-//     scrollbar: {
-//       el: ".swiper1-scrollbar",
-//       hide: false,
-//       draggdraggable: true,
-//       dragSize: 300,
-//     },
-//   });
-// });
